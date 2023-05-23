@@ -1,4 +1,4 @@
-time1 = input("Enter 5 solve times, seperating each time by hitting enter.")
+time1 = input("Enter 5 solve times, seperating each time by hitting enter." + "\n")
 time2 = input("")
 time3 = input("")
 time4 = input("")
