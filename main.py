@@ -1,8 +1,8 @@
-time1 = input("Enter 5 solve times, seperating each time by hitting enter." + "\n")
-time2 = input("")
-time3 = input("")
-time4 = input("")
-time5 = input("")
+time1 = input("Enter 5 solve times (in seconds), seperating each time by hitting enter." + "\n")
+time2 = input("Enter another time. ")
+time3 = input("Enter another time. ")
+time4 = input("Enter another time. ")
+time5 = input("Enter another time. ")
 
 
 time_list = [time1, time2, time3, time4, time5]
