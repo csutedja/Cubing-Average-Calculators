@@ -16,6 +16,6 @@ _Simple program to calculate Rubik's cube averages (mo3/ao5/ao12), written in Py
  - ~~error checking: currently if any value besides an integer/float is entered, the program will crash~~ _Error checking is now handled properly in version 2.0!_
 
 
- ~~- capability to calculate mo3 and ao12, two other common cubing solve stats~~ _Newly added in version 2.0!_
+ - ~~capability to calculate mo3 and ao12, two other common cubing solve stats~~ _Newly added in version 2.0!_
 
  
