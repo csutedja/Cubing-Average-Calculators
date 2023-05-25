@@ -1,6 +1,6 @@
-# cubing_averages_calculator
+# Cubing Averages Calculator
 
-**Cubing Averages Calculator**
+
 
 _Simple program to calculate Rubik's cube averages (mo3/ao5/ao12), written in Python._
 
