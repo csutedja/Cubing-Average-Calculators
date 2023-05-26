@@ -1,16 +1,16 @@
-def main():
-  def repeat():
+def main(): # entire program, including all calculations, is done in here
+  def repeat(): # function that is called at the end of a calculation that asks user if they want to repeat
     question = str(input("Would you like to calculate another average? If so, type in '1' or 'y'. If you are finished using this program, type in '2' or 'n'. "))
     if question == str(1) or question == str("y"):
       main()
     if question == str(2) or question == str("n"):
       print("\n Thank you for using this program!")
-      raise SystemExit
+      raise SystemExit # any future instances of SystemExit, including this one, are used to end the program
     else:
       print("Invalid input! ")
       repeat()
       
-  time_list = []
+  time_list = [] # declaring a list variable 
   question = str(input("To calculate a mo3, type in 1. To calculate an ao5, type in 2. For an ao12, type in 3. "))
   
   if question == str(1):
@@ -62,11 +62,11 @@ def main():
     for i in range(0, 12):
       try:
         time_input = float(input("Please input a time in seconds, seperating each one with ENTER key "))
-        time_list.append(time_input)
+        time_list.append(time_input) # adds the inputted value to the time list 
       except ValueError:
         print("Invalid input! ") 
         repeat()
-    sum_of_times = sum([float(x) for x in time_list])
+    sum_of_times = sum([float(x) for x in time_list]) 
     maxnum = 0
     minnum = 0
     def find_min_num(list): # function to determine fastest time 
