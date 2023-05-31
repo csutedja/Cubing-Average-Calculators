@@ -1,4 +1,4 @@
-# Cubing Averages Calculator
+# Cubing Average Calculators
 
 
 
