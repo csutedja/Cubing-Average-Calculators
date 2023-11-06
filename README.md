@@ -12,6 +12,7 @@ _Simple program to calculate Rubik's cube averages (mo3/ao5/ao12), written in Py
 # Coming soon:
 
 - the ability to calculate a custom average of the user's choosing (ao25, ao15, mo5, etc)
+- currently the program can't handle times above a minute properly, it will calculate them but output it like 90 instead of 1:30
 
 
 
